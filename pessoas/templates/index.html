@@ -1,0 +1,16 @@
+<h1>INDEX</h1>
+
+<br />
+Conteúdo normal do site...
+<br />
+
+{% if user.is_authenticated %}
+	Se deseja mostrar algo com o usuario logado em QUALQUER template...
+	<br />
+	<a href="/dashboard/">Painel do Cliente</a>
+	<br />
+	<a href="/logoff/">Clique para Sair</a>
+	<br />
+{% endif %}
+
+<a href="/login/">Clique para fazer o login</a>

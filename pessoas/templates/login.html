@@ -1,0 +1,7 @@
+<h1>LOGIN</h1>
+
+<form action="/validar/" method="POST">
+	{% csrf_token %}
+	{{ form }}
+	<input type="submit" value="Validar" />
+</form>
