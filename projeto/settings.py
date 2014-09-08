@@ -15,6 +15,12 @@ BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 AUTH_USER_MODEL = 'pessoas.Pessoa'
 LOGIN_URL = '/login/'
 
+EMAIL_USE_TLS = True
+EMAIL_HOST = 'smtps.bol.com.br'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'testeunifran@bol.com.br'
+EMAIL_HOST_PASSWORD = 'cruzeirodosul123'
+
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.6/howto/deployment/checklist/
